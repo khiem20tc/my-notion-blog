@@ -19,7 +19,7 @@ interface Project {
 
 export const getAllProjects = async (): Promise<Project[]> => {
   return await fetch(
-    `https://notion.thanhle.workers.dev/v1/table/${NOTION_PROJECTS_ID}`
+    `https://my-notion-api.anhkolamgidauanhthe.workers.dev/v1/table/${NOTION_PROJECTS_ID}`
   ).then((res) => res.json());
 };
 

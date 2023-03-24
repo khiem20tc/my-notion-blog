@@ -14,7 +14,7 @@ interface ISeries {
 
 export const getSeries = async (): Promise<ISeries[]> => {
   return await fetch(
-    `https://notion.thanhle.workers.dev/v1/table/${NOTION_SERIES_ID}`
+    `https://my-notion-api.anhkolamgidauanhthe.workers.dev/v1/table/${NOTION_SERIES_ID}`
   ).then((res) => res.json());
 };
 
