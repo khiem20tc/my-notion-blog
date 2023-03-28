@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 const NOTION_PROJECTS_ID =
-  process.env.NOTION_PROJECTS_ID || "9901f946476843c98b1d47a730297c7f";
+  process.env.NOTION_PROJECTS_ID || "2da2612aa43c421f8241ff96322791cf";
 interface Project {
   id: string;
   description: string;
