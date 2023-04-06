@@ -155,8 +155,8 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
       </div> */}
 
       <div className="max-w-5xl mx-auto">
-        <ReactGiscus
-          repo="thanhlmm/blog"
+        {/* <ReactGiscus
+          repo="khiem20tc/my-notion-blog"
           repoId="R_kgDOGOslWw"
           category="Ideas"
           categoryId="DIC_kwDOGOslW84CAR_K"
@@ -168,7 +168,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
           }
           // dataTerm={window.location.hostname + window.location.pathname}
           theme="preferred_color_scheme"
-        />
+        /> */}
         {/* <CommentV2
             repo="thanhlmm/blog"
             issueTerm="pathname"
