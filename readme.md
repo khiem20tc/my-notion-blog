@@ -1,5 +1,5 @@
-# 👋 thanhle.blog
+# 👋 anhkolamgidauanhthe.blog
 
-I write about the jouney on building high-end product
+On the road to freedom...
 
-Head to [https://thanhle.blog](https://thanhle.blog) to read.
+Head to [https://anhkolamgidauanhthe.blog](https://anhkolamgidauanhthe.blog) to read.

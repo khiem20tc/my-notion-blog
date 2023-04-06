@@ -12,7 +12,7 @@ const Comment = () => {
           __html: `
         <script
           src="https://utteranc.es/client.js"
-          repo="thanhlmm/blog"
+          repo="khiem20tc/my-notion-blog"
           issue-term="pathname"
           label="comment"
           theme="github-light"
