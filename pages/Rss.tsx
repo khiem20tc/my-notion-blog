@@ -31,7 +31,7 @@ const getRssXml = (blogPosts: Post[]) => {
   return `<?xml version="1.0" ?>
   <rss version="2.0">
     <channel>
-        <title>Blog by Thanh Le</title>
+        <title>Blog by Anhklolamgidauanhthe</title>
         <link>https://thanhle.blog</link>
         <description>I write about Product and Sofware Development</description>
         <language>en</language>

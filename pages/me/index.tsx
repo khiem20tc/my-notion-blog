@@ -23,7 +23,7 @@ const MePage = () => {
             width="60"
             height="60"
           />
-          <div className="text-lg font-medium">Thanh Le</div>
+          <div className="text-lg font-medium">Anhkolamgidauanhthe</div>
         </div>
       </div>
 
@@ -51,25 +51,25 @@ const MePage = () => {
       </div>
 
       <div>
-        <h1 className="mb-2 text-2xl text-gray-700 dark:text-white">Facts</h1>
+        <h1 className="mb-2 text-2xl text-gray-700 dark:text-white">Personal projects 🤏</h1>
         <div className="pl-2 space-y-4 md:pl-10">
           <div>
-            <p className="underline ">Why do I try to put lots of emojis?</p>
-            <p className="">It makes me look funny 🤪</p>
+            <p className="underline ">eth-blockchain-helper npm package</p>
+            <p className="">hehemeomeo</p>
           </div>
 
           <div>
-            <p className="underline ">My hobbies?</p>
+            <p className="underline ">crypto trading bot</p>
             <p className="">
-              Running 🏃‍♂️, trekking 🧗‍♂️, Dota 2, lost in my thought while riding
-              🚴‍♂️
+              meohemeohe
             </p>
           </div>
 
           <div>
-            <p className="underline ">My thought on technical?</p>
-            <p className="">It depends on which angle do you want to hear 😪</p>
+            <p className="underline ">blog</p>
+            <p className="">meomeohehe</p>
           </div>
+
         </div>
       </div>
 
@@ -80,37 +80,37 @@ const MePage = () => {
         <div className="pl-2 space-x-4 md:pl-10">
           <a
             className="text-indigo-600"
-            href="https://github.com/thanhlmm"
+            href="https://github.com/khiem20tc"
             target="_blank"
             rel="noopener noreferrer"
           >
             Github
           </a>
-          <a
+          {/* <a
             className="text-indigo-600"
             href="https://twitter.com/thanhledev"
             target="_blank"
             rel="noopener noreferrer"
           >
             Twitter
-          </a>
+          </a> */}
           <a
             className="text-indigo-600"
-            href="mailto:mihthanh27@gmail.com"
+            href="mailto:khiem20tc@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             Email
           </a>
 
-          <a
+          {/* <a
             className="text-indigo-600"
             href="https://app.cal.com/thanhle"
             target="_blank"
             rel="noopener noreferrer"
           >
             Meet me
-          </a>
+          </a> */}
         </div>
       </div>
 

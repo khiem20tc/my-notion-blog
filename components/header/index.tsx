@@ -13,8 +13,8 @@ const user = {
 const navigation = [
   { name: "📝 Blog", href: "/" },
   { name: "📽 Series", href: "/series" },
-  { name: "📚 Reading list", href: "/reading-list" },
-  { name: "💡 Projects", href: "/project" },
+  //{ name: "📚 Reading list", href: "/reading-list" },
+  //{ name: "💡 Projects", href: "/project" },
   { name: "🤷‍♂️ Me", href: "/me" },
 ];
 // const userNavigation = [
@@ -48,7 +48,7 @@ export default function Header() {
               <div className="flex">
                 <div className="flex items-center flex-shrink-0">
                   <Link href="/">
-                    <a className="text-gray-900 dark:text-gray-50">Thanh Le</a>
+                    <a className="text-gray-900 dark:text-gray-50">Anhkolamgidauanhthe</a>
                   </Link>
                 </div>
                 <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
