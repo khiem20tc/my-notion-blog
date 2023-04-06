@@ -6,8 +6,8 @@ import Link from "next/link";
 import ThemeSwitcher from "../themeSwitcher";
 
 const user = {
-  name: "Thanh Le",
-  email: "mihthanh27@gmail.com",
+  name: "Anhkolamgidauanhthe",
+  email: "khiem20tc@gmail.com",
   imageUrl: "/me.jpeg",
 };
 const navigation = [

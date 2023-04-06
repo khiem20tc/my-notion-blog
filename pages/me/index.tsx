@@ -8,12 +8,12 @@ const MePage = () => {
         <title>🤷‍♂️ Me</title>
         <meta
           name="description"
-          content="A boy dreams to create value for others via software product 😴"
+          content="The man has the ambition to create Software Products with high value for millions of users"
         />
       </Head>
       {/* IDENTITY */}
       <div className="px-4 mt-4 mb-2 text-xl text-center md:mt-8 md:mb-4 md:px-8">
-        "A boy dreams to create value for others via software products 😴"
+        "The man has the ambition to create Software Products with high value for millions of users"
         <br />
         <div className="mt-4">
           <Image
@@ -30,26 +30,21 @@ const MePage = () => {
       {/* MY VALUE METRICS */}
       <div>
         <h1 className="mb-2 text-2xl text-gray-700 dark:text-white">
-          What I value and believe
+        My Background 💪
         </h1>
         <div className="px-3 pl-2 mx-auto md:pl-10">
           <ul className="space-y-2">
             <li>
-              <strong>Professional ethics/Naive</strong> - I believe it makes me
-              happy on the journey without any regret
+              <strong>Title</strong>: Backend Engineer - Blockchain Architect from 2020 aka @anh-thợ-đụng
             </li>
             <li>
-              <strong>Value</strong> - I prefer value it created instead of its
-              flashy
+              <strong>Education</strong>: Computer Science - Ho Chi Minh University of Technology aka @Bách-Khoa-HCM
             </li>
             <li>
-              <strong>Freedom</strong> - I think all the way road to freedom. So
-              I want to have freedom and everyone around me can feel its value
+              <strong>Skills</strong>: NodeJS, NestJS, Microservices, Solidity, Ethereum, NFT, MongoDB, Redis, Docker, RabbitMQ, Layer2, Enterprise-blockchain...
             </li>
             <li>
-              <strong>Fair</strong> - It is fundimental of building a long term
-              relationship. PPL comes and goes, but fair make us go longer and
-              happier
+              <strong>Keywords</strong>: Enthusiam - Ambitious - Freedom
             </li>
           </ul>
         </div>
