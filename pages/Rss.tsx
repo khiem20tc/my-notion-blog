@@ -11,7 +11,7 @@ const blogPostsRssXml = (blogPosts: Post[]) => {
       <item>
         <title>${post.title}</title>
         <link>
-          https://thanhle.blog/blog/${post.slug}
+          https://anhkolamgidauanhthe.blog/blog/${post.slug}
         </link>
         
         <pubDate>${dayjs(post.date, "YYYY-MM-DD").toDate()}</pubDate>
