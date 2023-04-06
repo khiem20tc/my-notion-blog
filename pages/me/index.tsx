@@ -115,13 +115,13 @@ const MePage = () => {
       </div>
 
       <div>
-        <iframe
+        {/* <iframe
           src="https://tally.so/embed/wgWJOw?hideTitle=1&alignLeft=1&transparentBackground=1"
           className="w-full max-w-full border-none"
           height="500"
           frameBorder="0"
           title="ThanhLe.blog feedbacks"
-        ></iframe>
+        ></iframe> */}
         {/* <iframe
           allowTransparency
           allowFullScreen
