@@ -24,6 +24,10 @@ const Footer = () => {
           </a>
         </p>
       </div>
+      <div className="p-6">
+        <p className="text-center"> @source-blog: thanhle
+        </p>
+      </div>
       <div
         className={[
           "fixed inset-x-0 pb-2 sm:pb-5 transition-all",
