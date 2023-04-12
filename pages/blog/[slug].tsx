@@ -79,7 +79,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
 
   const ogImage =
     post.hero_image?.[0].url ||
-    `https://thanhle.blog/api/og?title=${encodeURI(
+    `https://anhkolamgidauanhthe.blog/api/og?title=${encodeURI(
       post.title
     )}&description=${encodeURI(
       post.description || ""
