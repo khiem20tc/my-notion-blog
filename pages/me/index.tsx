@@ -55,12 +55,12 @@ const MePage = () => {
         <div className="pl-2 space-y-4 md:pl-10">
 
           <div>
-            <p className="underline ">music-emotion-player</p>
+            <p className="underline ">emotion-music-player</p>
             <p className="">meomeohehe</p>
           </div>
 
           <div>
-            <p className="underline ">stranger-chat</p>
+            <p className="underline ">stranger-chatroom</p>
             <p className="">hemoehemoe</p>
           </div>
 
@@ -77,8 +77,10 @@ const MePage = () => {
           </div>
 
           <div>
-            <p className="underline ">blog</p>
-            <p className="">meomeohehe</p>
+            <p className="underline ">something new...</p>
+            <p className="">
+              meohemeohe
+            </p>
           </div>
 
         </div>
