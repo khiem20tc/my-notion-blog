@@ -112,7 +112,7 @@ function HomePage({ posts }: { posts: Post[] }) {
       <Head>
         <meta
           name="description"
-          content="I share about Frontend, Engineer and some thought in product and life."
+          content="I share about Backend - Blockchain - Devops Engineer and some thoughts in tech and life."
         />
       </Head>
       {/* <iframe
@@ -126,7 +126,7 @@ function HomePage({ posts }: { posts: Post[] }) {
       ></iframe> */}
 
       <div className="mb-4 text-gray-700 dark:text-gray-100">
-        I share about Frontend, Engineer and some thoughts in Product and Life
+      I share about Backend - Blockchain - Devops Engineer and some thoughts in Tech and Life.
         😴
       </div>
 
