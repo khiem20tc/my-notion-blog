@@ -25,7 +25,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="p-6">
-        <p className="text-center"> @source-blog: thanhle
+        <p className="text-center"> @source-blog by: thanhle
         </p>
       </div>
       <div

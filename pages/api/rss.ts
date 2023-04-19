@@ -6,12 +6,12 @@ import { getAllPosts } from '..'
 const metadata = {
   title: 'Anhkolamgidauanhthe Blog',
   description: 'I share about Backend - Blockchain - Devops Engineer and some thoughts in Tech and Life. 😴',
-  link: 'https://anhkolamgidauanhthe.blog',
+  link: 'http://anhkolamgidauanhthe.me',
 }
 
 const handler = nc<NextApiRequest, NextApiResponse>();
 
-const toAbsoluteUrl = (slug: string) => `https://anhkolamgidauanhthe.blog/blog/${slug}`;
+const toAbsoluteUrl = (slug: string) => `http://anhkolamgidauanhthe.me/blog/${slug}`;
 
 /**
  * Respond with an rss.xml
