@@ -8,12 +8,12 @@ const MePage = () => {
         <title>🤷‍♂️ Me</title>
         <meta
           name="description"
-          content="The man has the ambition to create Software Products with high value for millions of users"
+          content="The man has the ambition to create Software Products with real value for millions of users"
         />
       </Head>
       {/* IDENTITY */}
       <div className="px-4 mt-4 mb-2 text-xl text-center md:mt-8 md:mb-4 md:px-8">
-        "The man has the ambition to create Software Products with high value for millions of users"
+        "The man has the ambition to create Software Products with real value for millions of users"
         <br />
         <div className="mt-4">
           <Image
