@@ -53,6 +53,17 @@ const MePage = () => {
       <div>
         <h1 className="mb-2 text-2xl text-gray-700 dark:text-white">Personal projects 🤏</h1>
         <div className="pl-2 space-y-4 md:pl-10">
+
+          <div>
+            <p className="underline ">music-emotion-player</p>
+            <p className="">meomeohehe</p>
+          </div>
+
+          <div>
+            <p className="underline ">stranger-chat</p>
+            <p className="">hemoehemoe</p>
+          </div>
+
           <div>
             <p className="underline ">eth-blockchain-helper npm package</p>
             <p className="">hehemeomeo</p>
