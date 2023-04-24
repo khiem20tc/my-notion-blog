@@ -70,7 +70,14 @@ const MePage = () => {
           </div>
 
           <div>
-            <p className="underline ">crypto trading bot</p>
+            <p className="underline ">crypto copy-trading bot</p>
+            <p className="">
+              meohemeohe
+            </p>
+          </div>
+
+          <div>
+            <p className="underline ">no-slippage exchange</p>
             <p className="">
               meohemeohe
             </p>
@@ -79,7 +86,7 @@ const MePage = () => {
           <div>
             <p className="underline ">something new...</p>
             <p className="">
-              meohemeohe
+              hehemeomeo
             </p>
           </div>
 
