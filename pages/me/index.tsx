@@ -123,14 +123,14 @@ const MePage = () => {
             Email
           </a>
 
-          {/* <a
+          <a
             className="text-indigo-600"
-            href="https://app.cal.com/thanhle"
+            href="https://app.cal.com/anhkolamgidauanhthe"
             target="_blank"
             rel="noopener noreferrer"
           >
             Meet me
-          </a> */}
+          </a>
         </div>
       </div>
 
