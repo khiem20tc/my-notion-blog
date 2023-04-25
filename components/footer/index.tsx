@@ -16,18 +16,28 @@ const Footer = () => {
         <p className="text-center">
           Follow me{" "}
           <a
-            href="https://twitter.com/empty"
+            href="https://www.linkedin.com/in/hkhiemne/"
             className="text-blue-600"
             target="_blank"
           >
-            @Anhkolamgidauanhthe
+            @anhkolamgidauanhthe
           </a>
         </p>
       </div>
+
       <div className="p-6">
-        <p className="text-center"> @source-blog by: thanhle
+        <p className="text-center"> 
+        @source-blog by {" "}
+          <a
+            href="https://twitter.com/thanhledev"
+            className="text-blue-600"
+            target="_blank"
+          >
+            @thanhledev
+          </a>
         </p>
       </div>
+      
       <div
         className={[
           "fixed inset-x-0 pb-2 sm:pb-5 transition-all",
