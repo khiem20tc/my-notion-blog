@@ -138,10 +138,10 @@ function HomePage({ posts }: { posts: Post[] }) {
           ✨ New
         </a>
         <a
-          href="#engineer"
+          href="#technical"
           className="inline-flex items-center px-3 py-1 mb-2 mr-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700"
         >
-          👨‍💻 Engineer
+          👨‍💻 Technical
         </a>
         <a
           href="#blockchain"
@@ -156,10 +156,10 @@ function HomePage({ posts }: { posts: Post[] }) {
           🚀 Product
         </a>
         <a
-          href="#thought"
+          href="#life"
           className="inline-flex items-center px-3 py-1 mb-2 mr-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700"
         >
-          🤔 Thought
+          🤔 Life
         </a>
         <a
           href="#others"
@@ -181,13 +181,13 @@ function HomePage({ posts }: { posts: Post[] }) {
 
         <h3
           className="mt-10 mb-3 text-lg font-medium text-gray-700 dark:text-gray-100"
-          id="engineer"
+          id="technical"
         >
-          👨‍💻 Engineer
+          👨‍💻 Technical
         </h3>
         {/* <hr className="mb-4" /> */}
         <PostList
-          posts={posts.filter((post) => post.tag.includes("Engineer"))}
+          posts={posts.filter((post) => post.tag.includes("Technical"))}
         />
 
         <h3
@@ -214,15 +214,15 @@ function HomePage({ posts }: { posts: Post[] }) {
 
         <h3
           className="mt-10 mb-3 text-lg font-medium text-gray-700 dark:text-gray-100"
-          id="thought"
+          id="life"
         >
-          🤔 Thought
+          🤔 Life
         </h3>
         {/* <hr className="mb-4" /> */}
         <PostList
           posts={posts.filter(
             (post) =>
-              post.tag.includes("Thought") || post.tag.includes("Invest")
+              post.tag.includes("Life") || post.tag.includes("Invest")
           )}
         />
 
@@ -237,10 +237,10 @@ function HomePage({ posts }: { posts: Post[] }) {
           posts={posts.filter((post, index) => {
             return (
               index > 6 &&
-              !post.tag.includes("Engineer") &&
+              !post.tag.includes("Technical") &&
               !post.tag.includes("Blockchain") &&
               !post.tag.includes("Product") &&
-              !post.tag.includes("Thought") &&
+              !post.tag.includes("Life") &&
               !post.tag.includes("Invest")
             );
           })}
