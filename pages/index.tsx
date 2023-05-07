@@ -115,15 +115,15 @@ function HomePage({ posts }: { posts: Post[] }) {
           content="I share about Backend - Blockchain - Devops Engineer and some thoughts in tech and life."
         />
       </Head>
-      {/* <iframe
-        src="https://thanhleblg.substack.com/embed"
+      <iframe
+        src="https://anhkolamgidauanhthe.substack.com/embed"
         width="100%"
         height="250"
         className="mb-8"
         frameBorder="0"
         scrolling="no"
         loading="lazy"
-      ></iframe> */}
+      ></iframe>
 
       <div className="mb-4 text-gray-700 dark:text-gray-100">
       I share about Backend - Blockchain - Devops Engineer and some thoughts in Tech and Life.
