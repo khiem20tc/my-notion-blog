@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { getAllPosts, Post } from "..";
 
-const NOTION_SERIES_ID = "add24350028a4252921600ce553f99a8";
+const NOTION_SERIES_ID = "2781d70c6562402daf33e12c18daf94d";
 
 interface ISeries {
   Name: string;
