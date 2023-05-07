@@ -156,10 +156,10 @@ function HomePage({ posts }: { posts: Post[] }) {
           ⛓ Blockchain
         </a>
         <a
-          href="#product"
+          href="#project"
           className="inline-flex items-center px-3 py-1 mb-2 mr-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700"
         >
-          🚀 Product
+          🚀 Project
         </a>
         <a
           href="#others"
@@ -217,9 +217,9 @@ function HomePage({ posts }: { posts: Post[] }) {
 
         <h3
           className="mt-10 mb-3 text-lg font-medium text-gray-700 dark:text-gray-100"
-          id="product"
+          id="project"
         >
-          🚀 Product
+          🚀 Project
         </h3>
         {/* <hr className="mb-4" /> */}
         <PostList
@@ -238,9 +238,9 @@ function HomePage({ posts }: { posts: Post[] }) {
             return (
               index > 6 &&
               !post.tag.includes("Technical") &&
-              !post.tag.includes("Blockchain") &&
-              !post.tag.includes("Product") &&
               !post.tag.includes("Life") &&
+              !post.tag.includes("Blockchain") &&
+              !post.tag.includes("Project") &&
               !post.tag.includes("Invest")
             );
           })}
