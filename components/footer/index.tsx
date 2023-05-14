@@ -16,7 +16,7 @@ const Footer = () => {
         <p className="text-center">
           Follow me{" "}
           <a
-            href="https://www.linkedin.com/in/hkhiemne/"
+            href="https://www.facebook.com/anhkolamgidauanhthe/"
             className="text-blue-600"
             target="_blank"
           >
@@ -28,12 +28,12 @@ const Footer = () => {
 
         Donate to me{" "}
         <br></br>
-        Momo QR
+        {/* Momo QR
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
   <div style={{ width: "100px", height: "100px" }}>
     <img src="/momo.jpg" alt="MoMo QR Code" style={{ width: "auto", height: "auto" }} />
   </div>
-</div>
+</div> */}
 <br></br>
 Buy me a coffee
 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
