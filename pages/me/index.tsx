@@ -116,6 +116,14 @@ const MePage = () => {
           </a> */}
           <a
             className="text-indigo-600"
+            href="https://www.linkedin.com/in/hkhiemne/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+          <a
+            className="text-indigo-600"
             href="mailto:khiem20tc@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
