@@ -223,7 +223,7 @@ function HomePage({ posts }: { posts: Post[] }) {
         </h3>
         {/* <hr className="mb-4" /> */}
         <PostList
-          posts={posts.filter((post) => post.tag.includes("Product"))}
+          posts={posts.filter((post) => post.tag.includes("Project"))}
         />
 
         <h3
