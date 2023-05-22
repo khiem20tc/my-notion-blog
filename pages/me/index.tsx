@@ -74,7 +74,7 @@ const MePage = () => {
 
           <div>
             <p className="underline ">crypto copy-trading bot</p>
-            <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a>
+            {/* <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a> */}
             <p className="">
               meohemeohe
             </p>
