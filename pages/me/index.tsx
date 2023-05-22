@@ -44,7 +44,7 @@ const MePage = () => {
               <strong>Skills</strong>: NodeJS, NestJS, Microservices, Solidity, Ethereum, NFT, MongoDB, Redis, Docker, RabbitMQ, Layer2, Enterprise-blockchain...
             </li>
             <li>
-              <strong>Keywords</strong>: Enthusiam - Ambitious - Freedom
+              <strong>Keywords</strong>: Enthusiasm - Ambitious - Freedom
             </li>
           </ul>
         </div>
@@ -56,21 +56,25 @@ const MePage = () => {
 
           <div>
             <p className="underline ">emotion-music-player</p>
+            <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a>
             <p className="">meomeohehe</p>
           </div>
 
           <div>
             <p className="underline ">stranger-chatroom</p>
+            <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
             <p className="">hemoehemoe</p>
           </div>
 
           <div>
             <p className="underline ">eth-blockchain-helper npm package</p>
+            <a href="https://www.npmjs.com/package/eth-blockchain-helper">[https://www.npmjs.com/package/eth-blockchain-helper]</a>
             <p className="">hehemeomeo</p>
           </div>
 
           <div>
             <p className="underline ">crypto copy-trading bot</p>
+            <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a>
             <p className="">
               meohemeohe
             </p>
