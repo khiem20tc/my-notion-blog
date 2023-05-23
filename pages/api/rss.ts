@@ -5,7 +5,7 @@ import { getAllPosts } from '..'
 
 const metadata = {
   title: 'Anhkolamgidauanhthe Blog',
-  description: 'I share about Backend - Blockchain - Devops Engineer and some thoughts in Tech and Life. 😴',
+  description: 'I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴',
   link: 'http://anhkolamgidauanhthe.me',
 }
 
