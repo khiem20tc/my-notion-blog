@@ -57,40 +57,40 @@ const MePage = () => {
           <div>
             <p className="underline ">emotion-music-player</p>
             <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a>
-            <p className="">meomeohehe</p>
+            <p className="">The music player auto play a music in playlist based on your emotion</p>
           </div>
 
           <div>
             <p className="underline ">stranger-chatroom</p>
             <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
-            <p className="">hemoehemoe</p>
+            <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot</p>
           </div>
 
           <div>
             <p className="underline ">eth-blockchain-helper npm package</p>
             <a href="https://www.npmjs.com/package/eth-blockchain-helper">[https://www.npmjs.com/package/eth-blockchain-helper]</a>
-            <p className="">hehemeomeo</p>
+            <p className="">The package npm to helps interacting with Ethereum-based networks</p>
           </div>
 
           <div>
             <p className="underline ">crypto copy-trading bot</p>
             {/* <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a> */}
             <p className="">
-              meohemeohe
+              contact me for details
             </p>
           </div>
 
           <div>
             <p className="underline ">no-slippage exchange</p>
             <p className="">
-              meohemeohe
+              contact me for details
             </p>
           </div>
 
           <div>
             <p className="underline ">something new...</p>
             <p className="">
-              hehemeomeo
+              waiting for me
             </p>
           </div>
 
