@@ -24,6 +24,9 @@ const MePage = () => {
             height="60"
           />
           <div className="text-lg font-medium">Anhkolamgidauanhthe</div>
+          <div className="text-base font-normal" style={{ fontStyle: 'italic' }}>
+  "make impossible thing to possible"
+</div>
         </div>
       </div>
 
