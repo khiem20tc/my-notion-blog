@@ -58,31 +58,31 @@ const MePage = () => {
         <div className="pl-2 space-y-4 md:pl-10">
 
           <div>
-            <p className="underline ">emotion-music-player Website</p>
+            <p className="underline ">Emotion-music-player</p>
             {/* <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a> */}
             <p className="">The music player auto play a music in playlist based on your emotion.</p>
           </div>
 
           <div>
-            <p className="underline ">discord-music-bot Discord</p>
+            <p className="underline ">Discord-music-bot</p>
             {/* <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a> */}
             <p className="">The powerful Discord bot with music playback and text-to-speech features.</p>
           </div>
 
           <div>
-            <p className="underline ">stranger-chatroom Telegram</p>
+            <p className="underline ">Stranger-chatroom-telegram</p>
             {/* <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a> */}
             <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot.</p>
           </div>
 
           <div>
-            <p className="underline ">eth-blockchain-helper Npm package</p>
+            <p className="underline ">Npm-package @eth-blockchain-helper </p>
             <a href="https://www.npmjs.com/package/eth-blockchain-helper">[https://www.npmjs.com/package/eth-blockchain-helper]</a>
             <p className="">The package npm to helps interacting with Ethereum-based networks.</p>
           </div>
 
           <div>
-            <p className="underline ">crypto-copy-trading Telegram</p>
+            <p className="underline ">Crypto-copy-trading system</p>
             {/* <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a> */}
             <p className="">
               contact me for details
@@ -90,14 +90,14 @@ const MePage = () => {
           </div>
 
           <div>
-            <p className="underline ">no-slippage Exchange</p>
+            <p className="underline ">No-slippage decentralized exchange</p>
             <p className="">
               contact me for details
             </p>
           </div>
 
           <div>
-            <p className="underline ">something new...</p>
+            <p className="underline ">Something new...</p>
             <p className="">
               waiting for me
             </p>
