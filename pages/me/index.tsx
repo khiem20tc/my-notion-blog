@@ -59,20 +59,26 @@ const MePage = () => {
 
           <div>
             <p className="underline ">emotion-music-player</p>
-            <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a>
-            <p className="">The music player auto play a music in playlist based on your emotion</p>
+            {/* <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a> */}
+            <p className="">The music player auto play a music in playlist based on your emotion.</p>
+          </div>
+
+          <div>
+            <p className="underline ">discord-music-bot</p>
+            {/* <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a> */}
+            <p className="">The powerful Discord bot with music playback and text-to-speech features.</p>
           </div>
 
           <div>
             <p className="underline ">stranger-chatroom</p>
-            <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
-            <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot</p>
+            {/* <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a> */}
+            <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot.</p>
           </div>
 
           <div>
             <p className="underline ">eth-blockchain-helper npm package</p>
             <a href="https://www.npmjs.com/package/eth-blockchain-helper">[https://www.npmjs.com/package/eth-blockchain-helper]</a>
-            <p className="">The package npm to helps interacting with Ethereum-based networks</p>
+            <p className="">The package npm to helps interacting with Ethereum-based networks.</p>
           </div>
 
           <div>
