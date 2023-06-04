@@ -38,10 +38,10 @@ const MePage = () => {
         <div className="px-3 pl-2 mx-auto md:pl-10">
           <ul className="space-y-2">
             <li>
-              <strong>Title</strong>: Backend Engineer - Blockchain Architect at Vietnam Blockchain Corporation (VBC) from 2020 aka @anh-thợ-đụng 
+              <strong>Title</strong>: Backend Engineer - Blockchain Architect at Vietnam Blockchain Corporation (VBC) from 2020.
             </li>
             <li>
-              <strong>Education</strong>: Computer Science - Ho Chi Minh University of Technology aka @Bách-Khoa-HCM
+              <strong>Education</strong>: Computer Science - Ho Chi Minh University of Technology (Bach Khoa HCM).
             </li>
             <li>
               <strong>Skills</strong>: NodeJS, NestJS, Microservices, Solidity, Ethereum, NFT, MongoDB, Redis, Docker, RabbitMQ, Layer2, Enterprise-blockchain...
