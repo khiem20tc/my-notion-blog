@@ -233,9 +233,9 @@ function HomePage({ posts }: { posts: Post[] }) {
         </h3>
         {/* <hr className="mb-4" /> */}
         <PostList
-          posts={posts.filter((post, index) => {
+          posts={posts.filter((post) => {
             return (
-              index > 6 &&
+              // index > 6 &&
               !post.tag.includes("Technical") &&
               !post.tag.includes("Life") &&
               !post.tag.includes("Blockchain") &&
