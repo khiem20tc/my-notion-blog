@@ -57,23 +57,23 @@ const MePage = () => {
         <h1 className="mb-2 text-2xl text-gray-700 dark:text-white">Personal projects 🤏</h1>
         <div className="pl-2 space-y-4 md:pl-10">
 
-          {/* <div>
+          <div>
             <p className="underline ">Emotion-music-player</p>
             <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a>
             <p className="">The music player auto play a music in playlist based on your emotion.</p>
-          </div> */}
+          </div>
 
-          {/* <div>
+          <div>
             <p className="underline ">Discord-music-bot</p>
             <a href="https://khiem20tc.github.io/">[https://khiem20tc.github.io/]</a>
             <p className="">The powerful Discord bot with music playback and text-to-speech features.</p>
-          </div> */}
+          </div>
 
-          {/* <div>
+          <div>
             <p className="underline ">Stranger-chatroom-telegram</p>
             <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
             <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot.</p>
-          </div> */}
+          </div>
 
           <div>
             <p className="underline ">Npm-package @eth-blockchain-helper </p>
@@ -81,20 +81,20 @@ const MePage = () => {
             <p className="">The package npm to helps interacting with Ethereum-based networks.</p>
           </div>
 
-          {/* <div>
+          <div>
             <p className="underline ">Crypto-copy-trading system</p>
             <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a>
             <p className="">
               contact me for details
             </p>
-          </div> */}
+          </div>
 
-          {/* <div>
+          <div>
             <p className="underline ">No-slippage decentralized exchange</p>
             <p className="">
               contact me for details
             </p>
-          </div> */}
+          </div>
 
           <div>
             <p className="underline ">Something new...</p>
