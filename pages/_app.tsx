@@ -71,7 +71,8 @@ function App({ Component, pageProps }: AppProps) {
         <script id="mcjs"
           dangerouslySetInnerHTML={{
             __html: `
-            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1756d11b9bc01102df03067a4/16aaa026d1afccbefb6ba023b.js");        }}
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1756d11b9bc01102df03067a4/16aaa026d1afccbefb6ba023b.js");          `,
+        }}
         />
 
       </Head>
