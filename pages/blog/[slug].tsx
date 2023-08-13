@@ -142,7 +142,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
         />
       </article>
 
-      <div>
+      {/* <div>
         <iframe
           src="https://anhkolamgidauanhthe.substack.com/embed"
           width="100%"
@@ -152,7 +152,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
           scrolling="no"
           loading="lazy"
         ></iframe>
-      </div>
+      </div> */}
 
       <div className="max-w-5xl mx-auto">
         <ReactGiscus
