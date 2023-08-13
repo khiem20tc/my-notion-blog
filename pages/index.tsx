@@ -115,7 +115,7 @@ function HomePage({ posts }: { posts: Post[] }) {
           content="I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴"
         />
       </Head>
-      {/* <iframe
+      <iframe
         src="https://anhkolamgidauanhthe.substack.com/embed"
         width="100%"
         height="250"
@@ -123,7 +123,7 @@ function HomePage({ posts }: { posts: Post[] }) {
         frameBorder="0"
         scrolling="no"
         loading="lazy"
-      ></iframe> */}
+      ></iframe>
 
       <div className="mb-4 text-gray-700 dark:text-gray-100">
       I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴
