@@ -25,7 +25,7 @@ const MePage = () => {
           />
           <div className="text-lg font-medium">Anhkolamgidauanhthe</div>
           <div className="text-base font-normal" style={{ fontStyle: 'italic' }}>
-  "make impossible to possible"
+  "Make the impossible possible"
 </div>
         </div>
       </div>
