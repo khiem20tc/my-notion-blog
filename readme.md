@@ -1,5 +1,5 @@
-# 👋 anhkolamgidauanhthe.me
+# 👋 anhkolamgidauanhthe.blog
 
 On the road to freedom...
 
-Head to [http://anhkolamgidauanhthe.me](http://anhkolamgidauanhthe.me) to read.
+Head to [http://anhkolamgidauanhthe.blog](http://anhkolamgidauanhthe.blog) to read.

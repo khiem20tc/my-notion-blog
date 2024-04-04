@@ -50,7 +50,7 @@ const handleRequest = async (fetchEvent: FetchEvent): Promise<Response> => {
     (request.headers.get("Authorization") || "").split("Bearer ")[1] ||
     undefined;
 
-  const match = router.match(request.method as Method, pathname);
+  const match = router.match(request.blogthod as Method, pathname);
 
   if (!match) {
     return new Response("Endpoint not found.", { status: 404 });

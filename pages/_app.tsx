@@ -5,6 +5,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import { appWithTranslation } from "next-i18next";
 import { Analytics } from '@vercel/analytics/react';
+// import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
@@ -75,6 +76,14 @@ function App({ Component, pageProps }: AppProps) {
         }}
         />
 
+        {/* <script id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `
+            injectSpeedInsights()
+          `,
+          }}
+        /> */}
+
       </Head>
       <Header />
       <QueryClientProvider client={queryClient}>
@@ -82,6 +91,7 @@ function App({ Component, pageProps }: AppProps) {
       </QueryClientProvider>
       <Footer />
       <Analytics />
+      {/* <SpeedInsights /> */}
     </div>
   );
 }

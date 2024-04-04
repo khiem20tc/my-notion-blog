@@ -1,17 +1,19 @@
-import { NextApiRequest, NextApiResponse } from 'next'
-import nc from 'next-connect'
-import dayjs from 'dayjs';
-import { getAllPosts } from '..'
+import { NextApiRequest, NextApiResponse } from "next";
+import nc from "next-connect";
+import dayjs from "dayjs";
+import { getAllPosts } from "..";
 
 const metadata = {
-  title: 'Anhkolamgidauanhthe Blog',
-  description: 'I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴',
-  link: 'http://anhkolamgidauanhthe.me',
-}
+  title: "Anhkolamgidauanhthe Blog",
+  description:
+    "I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴",
+  link: "http://anhkolamgidauanhthe.blog",
+};
 
 const handler = nc<NextApiRequest, NextApiResponse>();
 
-const toAbsoluteUrl = (slug: string) => `http://anhkolamgidauanhthe.me/blog/${slug}`;
+const toAbsoluteUrl = (slug: string) =>
+  `http://anhkolamgidauanhthe.blog/blog/${slug}`;
 
 /**
  * Respond with an rss.xml
@@ -20,12 +22,12 @@ const toAbsoluteUrl = (slug: string) => `http://anhkolamgidauanhthe.me/blog/${sl
  * @param {object} res NextApiResponse
  */
 handler.get(async (_req: NextApiRequest, res: NextApiResponse) => {
-  const posts = await getAllPosts({ locale: 'vi', includeDraft: false });
+  const posts = await getAllPosts({ locale: "vi", includeDraft: false });
 
   try {
     const postItems = posts
       .map((page) => {
-        const url = toAbsoluteUrl(page.slug)
+        const url = toAbsoluteUrl(page.slug);
         const pubDate = dayjs(page.date, "YYYY-MM-DD").toDate();
         // <content:encoded>${page.content}</content:encoded>
         return `<item>
@@ -33,12 +35,13 @@ handler.get(async (_req: NextApiRequest, res: NextApiResponse) => {
           <link>${url}</link>
           <guid>${url}</guid>
           <pubDate>${pubDate.toUTCString()}</pubDate>
-          ${page.description &&
-          `<description><![CDATA[${page.description}]]></description>`
+          ${
+            page.description &&
+            `<description><![CDATA[${page.description}]]></description>`
           }
-        </item>`
+        </item>`;
       })
-      .join('\n\n')
+      .join("\n\n");
 
     const mostRecentlyPostDate = posts
       .sort(
@@ -52,29 +55,30 @@ handler.get(async (_req: NextApiRequest, res: NextApiResponse) => {
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <atom:link href="${process.env.NEXT_PUBLIC_ROOT_URL
+      <atom:link href="${
+        process.env.NEXT_PUBLIC_ROOT_URL
       }/feed.xml" rel="self" type="application/rss+xml" />
       <title>${metadata.title}</title>
       <description>${metadata.description}</description>
       <link>${metadata.link}</link>
-      <lastBuildDate>${dayjs(
-        mostRecentlyPostDate?.date
-      ).toDate().toUTCString()}</lastBuildDate>
+      <lastBuildDate>${dayjs(mostRecentlyPostDate?.date)
+        .toDate()
+        .toUTCString()}</lastBuildDate>
       ${postItems}
     </channel>
-    </rss>`
+    </rss>`;
 
     // set response content header to xml
-    res.setHeader('Content-Type', 'text/xml; charset=utf-8')
+    res.setHeader("Content-Type", "text/xml; charset=utf-8");
 
-    return res.status(200).send(sitemap)
+    return res.status(200).send(sitemap);
   } catch (e: unknown) {
     if (!(e instanceof Error)) {
-      throw e
+      throw e;
     }
 
-    return res.status(500).json({ error: e.message || '' })
+    return res.status(500).json({ error: e.blogssage || "" });
   }
-})
+});
 
-export default handler
+export default handler;

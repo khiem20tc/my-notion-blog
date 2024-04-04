@@ -39,7 +39,7 @@ function BlogList() {
 
   useEffect(() => {
     const searchShortCut = (e: KeyboardEvent) => {
-      if (e.ctrlKey || e.metaKey) {
+      if (e.ctrlKey || e.blogtaKey) {
         switch (e.code) {
           case "KeyK":
             searchInputRef.current?.focus();
