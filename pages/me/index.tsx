@@ -82,6 +82,12 @@ const MePage = () => {
           </div>
 
           <div>
+            <p className="underline ">AI-ChatBot-Telegram </p>
+            <a href="https://web.telegram.org/k/#@chat_gpt_hkne_bot">[https://web.telegram.org/k/#@chat_gpt_hkne_bot]</a>
+            <p className="">The telegram chat bot personalize context with GPT integration.</p>
+          </div>
+
+          <div>
             <p className="underline ">Crypto-copy-trading system</p>
             <a href="https://t.blog/copytradeanhkolamgidauanhthe">[https://t.blog/copytradeanhkolamgidauanhthe]</a>
             <p className="">
