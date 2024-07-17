@@ -71,7 +71,7 @@ const MePage = () => {
 
           <div>
             <p className="underline ">Stranger-chatroom-telegram</p>
-            <a href="https://t.blog/strangerchatbot_announcement">[https://t.blog/strangerchatbot_announcement]</a>
+            <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
             <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot.</p>
           </div>
 
@@ -89,7 +89,7 @@ const MePage = () => {
 
           <div>
             <p className="underline ">Crypto-copy-trading system</p>
-            <a href="https://t.blog/copytradeanhkolamgidauanhthe">[https://t.blog/copytradeanhkolamgidauanhthe]</a>
+            <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a>
             <p className="">
               contact me for details
             </p>
