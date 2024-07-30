@@ -69,11 +69,11 @@ const MePage = () => {
             <p className="">The powerful Discord bot with music playback and text-to-speech features.</p>
           </div>
 
-          <div>
+          {/* <div>
             <p className="underline ">Stranger-chatroom-telegram</p>
             <a href="https://t.me/strangerchatbot_announcement">[https://t.me/strangerchatbot_announcement]</a>
             <p className="">Chatroom to connect 2 stranger people for chatting with text, picture and video on Telegram bot.</p>
-          </div>
+          </div> */}
 
           <div>
             <p className="underline ">Npm-package @eth-blockchain-helper </p>
