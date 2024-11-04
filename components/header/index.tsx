@@ -6,7 +6,7 @@ import Link from "next/link";
 import ThemeSwitcher from "../themeSwitcher";
 
 const user = {
-  name: "Anhkolamgidauanhthe",
+  name: "Kevinbkdev",
   email: "khiem20tc@gmail.com",
   imageUrl: "/me.jpeg",
 };
@@ -49,7 +49,7 @@ export default function Header() {
               <div className="flex">
                 <div className="flex items-center flex-shrink-0">
                   <Link href="/">
-                    <a className="text-gray-900 dark:text-gray-50">Anhkolamgidauanhthe</a>
+                    <a className="text-gray-900 dark:text-gray-50">Kevinbkdev</a>
                   </Link>
                 </div>
                 <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">

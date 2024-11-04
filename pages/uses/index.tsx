@@ -144,7 +144,7 @@ const UsesPage: React.FC<Props> = ({ blockMap }) => (
 
 export async function getStaticProps() {
   const data: BlockMapType = await fetch(
-    "https://my-notion-api.anhkolamgidauanhthe.workers.dev/v1/page/2a5460a2ecb74b528eff6bc4595e49eb"
+    "https://my-notion-api.kevinbkdev.workers.dev/v1/page/2a5460a2ecb74b528eff6bc4595e49eb"
   ).then((res) => res.json());
 
   return {

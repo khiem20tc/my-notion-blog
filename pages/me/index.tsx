@@ -23,7 +23,7 @@ const MePage = () => {
             width="60"
             height="60"
           />
-          <div className="text-lg font-medium">Anhkolamgidauanhthe</div>
+          <div className="text-lg font-medium">Kevinbkdev</div>
           <div className="text-base font-normal" style={{ fontStyle: 'italic' }}>
   "Make the impossible possible"
 </div>
@@ -89,7 +89,7 @@ const MePage = () => {
 
           <div>
             <p className="underline ">Crypto-copy-trading system</p>
-            <a href="https://t.me/copytradeanhkolamgidauanhthe">[https://t.me/copytradeanhkolamgidauanhthe]</a>
+            <a href="https://t.me/copytradekevinbkdev">[https://t.me/copytradekevinbkdev]</a>
             <p className="">
               contact me for details
             </p>
@@ -152,7 +152,7 @@ const MePage = () => {
 
           <a
             className="text-indigo-600"
-            href="https://app.cal.com/anhkolamgidauanhthe"
+            href="https://app.cal.com/kevinbkdev"
             target="_blank"
             rel="noopener noreferrer"
           >

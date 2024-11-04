@@ -79,7 +79,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
 
   const ogImage =
     post.hero_image?.[0].url ||
-    `http://anhkolamgidauanhthe.blog/api/og?title=${encodeURI(
+    `http://kevinbkdev.blog/api/og?title=${encodeURI(
       post.title
     )}&description=${encodeURI(
       post.description || ""
@@ -117,7 +117,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
           >
             <a className="text-indigo-700">
               {" "}
-              http://anhkolamgidauanhthe.blog/blog/{post.linkRelatived}
+              http://kevinbkdev.blog/blog/{post.linkRelatived}
             </a>
           </Link>
         </div>
@@ -144,7 +144,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
 
       {/* <div>
         <iframe
-          src="https://anhkolamgidauanhthe.substack.com/embed"
+          src="https://kevinbkdev.substack.com/embed"
           width="100%"
           height="250"
           className="mt-3 mb-3"

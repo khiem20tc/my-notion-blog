@@ -15,7 +15,7 @@
 // const listId = "69a9463d1d";
 
 // // RSS Feed URL
-// const rssFeedUrl = 'http://anhkolamgidauanhthe.blog/rss'; // Replace with your blog's RSS feed URL
+// const rssFeedUrl = 'http://kevinbkdev.blog/rss'; // Replace with your blog's RSS feed URL
 
 // // Function to fetch latest blog posts from the RSS feed
 // async function fetchLatestBlogPosts(): Promise<BlogPost[]> {

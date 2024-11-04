@@ -11,7 +11,7 @@ const blogPostsRssXml = (blogPosts: Post[]) => {
       <item>
         <title>${post.title}</title>
         <link>
-          http://anhkolamgidauanhthe.blog/blog/${post.slug}
+          http://kevinbkdev.blog/blog/${post.slug}
         </link>
         
         <pubDate>${dayjs(post.date, "YYYY-MM-DD").toDate()}</pubDate>
@@ -31,8 +31,8 @@ const getRssXml = (blogPosts: Post[]) => {
   return `<?xml version="1.0" ?>
   <rss version="2.0">
     <channel>
-        <title>Blog by Anhklolamgidauanhthe</title>
-        <link>http://anhkolamgidauanhthe.blog</link>
+        <title>Blog by Kevinbkdev</title>
+        <link>http://kevinbkdev.blog</link>
         <description>I write about Product and Sofware Development</description>
         <language>en</language>
         <lastBuildDate>${latestPostDate}</lastBuildDate>

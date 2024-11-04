@@ -16,11 +16,11 @@ const Footer = () => {
         <p className="text-center">
           Follow me{" "}
           <a
-            href="https://www.facebook.com/anhkolamgidauanhthe/"
+            href="https://www.facebook.com/kevinbkdev/"
             className="text-blue-600"
             target="_blank"
           >
-            @anhkolamgidauanhthe
+            @kevinbkdev
           </a>
 
         <br></br>

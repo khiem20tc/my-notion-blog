@@ -28,7 +28,7 @@ export const getAllPosts = async ({
   includeDraft = false,
 }): Promise<Post[]> => {
   return await fetch(
-    `https://my-notion-api.anhkolamgidauanhthe.workers.dev/v1/table/${NOTION_BLOG_ID}`
+    `https://my-notion-api.kevinbkdev.workers.dev/v1/table/${NOTION_BLOG_ID}`
   )
     .then((res) => res.json())
     .then((res) =>
@@ -116,7 +116,7 @@ function HomePage({ posts }: { posts: Post[] }) {
         />
       </Head>
       {/* <iframe
-        src="https://anhkolamgidauanhthe.substack.com/embed"
+        src="https://kevinbkdev.substack.com/embed"
         width="100%"
         height="250"
         className="mb-8"

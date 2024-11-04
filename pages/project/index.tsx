@@ -19,7 +19,7 @@ interface Project {
 
 export const getAllProjects = async (): Promise<Project[]> => {
   return await fetch(
-    `https://my-notion-api.anhkolamgidauanhthe.workers.dev/v1/table/${NOTION_PROJECTS_ID}`
+    `https://my-notion-api.kevinbkdev.workers.dev/v1/table/${NOTION_PROJECTS_ID}`
   ).then((res) => res.json());
 };
 
@@ -54,7 +54,7 @@ const ProjectPage = ({ projects }: { projects: Project[] }) => {
             width="60"
             height="60"
           />
-          <div className="text-lg font-medium">Anhkolamgidauanhthe</div>
+          <div className="text-lg font-medium">Kevinbkdev</div>
         </div>
       </div>
       <div className="relative pt-16 pb-32 overflow-hidden ">

@@ -40,7 +40,7 @@ export default function (req: NextRequest) {
                   tw="w-16 h-16 rounded-full shadow-sm"
                 />
                 <div tw="mt-0 ml-4 text-xl font-medium text-gray-600">
-                  Anhkolamgidauanhthe
+                  Kevinbkdev
                 </div>
               </div>
 
