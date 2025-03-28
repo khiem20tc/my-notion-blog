@@ -125,17 +125,17 @@ const MePage = () => {
           >
             Github
           </a>
-          {/* <a
+          <a
             className="text-indigo-600"
-            href="https://twitter.com/thanhledev"
+            href="https://twitter.com/kevinbkdev"
             target="_blank"
             rel="noopener noreferrer"
           >
             Twitter
-          </a> */}
+          </a>
           <a
             className="text-indigo-600"
-            href="https://www.linkedin.com/in/hkhiemne/"
+            href="https://www.linkedin.com/in/kevinbkdev/"
             target="_blank"
             rel="noopener noreferrer"
           >
