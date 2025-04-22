@@ -127,7 +127,7 @@ const MePage = () => {
           </a>
           <a
             className="text-indigo-600"
-            href="https://twitter.com/kevinbkdev"
+            href="https://twitter.com/0xkevinbkdev"
             target="_blank"
             rel="noopener noreferrer"
           >
