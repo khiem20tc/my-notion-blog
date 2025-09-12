@@ -38,16 +38,28 @@ const MePage = () => {
         <div className="px-3 pl-2 mx-auto md:pl-10">
           <ul className="space-y-2">
             <li>
-              <strong>Title</strong>: Backend Engineer - Blockchain Architect at Vietnam Blockchain Corporation (VBC) from 2020.
+              <strong>Title</strong>: Backend/Blockchain Engineer - Blockchain Architect from 2020.
             </li>
             <li>
-              <strong>Education</strong>: Computer Science - Ho Chi Minh University of Technology (Bach Khoa HCM).
+              <strong>Achievements</strong>: COINBASE hackathon winner | Entrepreneur ANTLER VN6.
             </li>
             <li>
-              <strong>Skills</strong>: NodeJS, NestJS, Microservices, Solidity, Ethereum, NFT, MongoDB, Redis, Docker, RabbitMQ, Layer2, Enterprise-blockchain...
+              <strong>Roles</strong>: Tech Blogger | Blockchain & Backend Engineer.
             </li>
             <li>
-              <strong>Keywords</strong>: Enthusiasm - Ambitious - Freedom
+              <strong>Education</strong>: Graduated from Ho Chi Minh University of Technology (HCMUT).
+            </li>
+            <li>
+              <strong>Location</strong>: Saigon - Vietnam.
+            </li>
+            <li>
+              <strong>Expertise</strong>: Ask me about Blockchain, Nodejs, Golang, and DevOps.
+            </li>
+            <li>
+              <strong>Skills</strong>: NodeJS, NestJS, Golang, Microservices, Solidity, Ethereum, NFT, MongoDB, Redis, Docker, RabbitMQ, Layer2, Enterprise-blockchain, DevOps...
+            </li>
+            <li>
+              <strong>Personality</strong>: MBTI is INTJ | Enthusiasm - Ambitious - Freedom
             </li>
           </ul>
         </div>
