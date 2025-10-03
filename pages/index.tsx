@@ -2,6 +2,7 @@ import Link from "next/link";
 import dayjs from "dayjs";
 import { GetStaticProps } from "next";
 import Head from "next/head";
+import QuotesSlider from "../components/quotes";
 
 const NOTION_BLOG_ID =
   process.env.NOTION_BLOG_ID || "c0a9456d6fa04bb2af554a310ac7b5ff";
@@ -124,6 +125,11 @@ function HomePage({ posts }: { posts: Post[] }) {
         scrolling="no"
         loading="lazy"
       ></iframe> */}
+
+      {/* Daily Quotes Slider */}
+      <div className="mb-6">
+        <QuotesSlider />
+      </div>
 
       <div className="mb-4 text-gray-700 dark:text-gray-100">
       I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴
