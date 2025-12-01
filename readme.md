@@ -1,5 +1,5 @@
-# 👋 kevinbkdev.blog
+# 👋 kevinbkdev.vercel.app
 
 On the road to freedom...
 
-Head to [http://kevinbkdev.blog](http://kevinbkdev.blog) to read.
+Head to [https://kevinbkdev.vercel.app](https://kevinbkdev.vercel.app) to read.

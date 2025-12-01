@@ -7,12 +7,13 @@ const metadata = {
   title: "Kevinbkdev Blog",
   description:
     "I share about Backend - Blockchain - DevOps and some thoughts on Tech and Life. 😴",
-  link: "http://kevinbkdev.blog",
+  link: "https://kevinbkdev.vercel.app",
 };
 
 const handler = nc<NextApiRequest, NextApiResponse>();
 
-const toAbsoluteUrl = (slug: string) => `http://kevinbkdev.blog/blog/${slug}`;
+const toAbsoluteUrl = (slug: string) =>
+  `https://kevinbkdev.vercel.app/blog/${slug}`;
 
 /**
  * Respond with an rss.xml

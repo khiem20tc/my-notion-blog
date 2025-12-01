@@ -11,7 +11,7 @@ const blogPostsRssXml = (blogPosts: Post[]) => {
       <item>
         <title>${post.title}</title>
         <link>
-          http://kevinbkdev.blog/blog/${post.slug}
+          https://kevinbkdev.vercel.app/blog/${post.slug}
         </link>
         
         <pubDate>${dayjs(post.date, "YYYY-MM-DD").toDate()}</pubDate>
@@ -32,7 +32,7 @@ const getRssXml = (blogPosts: Post[]) => {
   <rss version="2.0">
     <channel>
         <title>Blog by Kevinbkdev</title>
-        <link>http://kevinbkdev.blog</link>
+        <link>https://kevinbkdev.vercel.app</link>
         <description>I write about Product and Sofware Development</description>
         <language>en</language>
         <lastBuildDate>${latestPostDate}</lastBuildDate>
