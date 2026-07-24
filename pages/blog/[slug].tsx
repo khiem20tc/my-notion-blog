@@ -38,6 +38,69 @@ const TweetRender = ({ id }: { id: string }) => {
   return <TweetEmbed tweetId={id} />;
 };
 
+/**
+ * Notion's private API now returns doubly-nested records:
+ * `{ spaceId, value: { value: Block } }` instead of `{ role, value: Block }`.
+ * Older react-notion-x reads `record.value.type` directly and crashes on the
+ * new shape — unwrap so the renderer gets the classic format.
+ * @see https://github.com/NotionX/react-notion-x/issues/682
+ */
+function normalizeNotionRecordMap(recordMap: any) {
+  if (!recordMap || typeof recordMap !== "object") return recordMap;
+
+  for (const tableKey of Object.keys(recordMap)) {
+    const table = recordMap[tableKey];
+    if (!table || typeof table !== "object" || Array.isArray(table)) continue;
+
+    for (const id of Object.keys(table)) {
+      const record = table[id];
+      const nested = record?.value?.value;
+      if (nested && typeof nested === "object" && nested.id) {
+        table[id] = {
+          role: record.role ?? "reader",
+          value: nested,
+        };
+      }
+    }
+  }
+
+  return recordMap;
+}
+
+async function getNormalizedNotionPage(pageId: string) {
+  const notion = new NotionAPI();
+  const recordMap: any = await notion.getPage(pageId);
+  normalizeNotionRecordMap(recordMap);
+
+  // getPage discovers missing blocks via block.value.content. With Notion's
+  // nested value.value shape that path is empty, so child blocks never load
+  // and the renderer can 500. Fetch remaining content after unwrapping.
+  for (let i = 0; i < 20; i++) {
+    const pendingBlockIds: string[] = [];
+    const seen = new Set<string>();
+    for (const block of Object.values(recordMap.block || {}) as any[]) {
+      const content = block?.value?.content;
+      if (!Array.isArray(content)) continue;
+      for (const id of content) {
+        if (id && !recordMap.block[id] && !seen.has(id)) {
+          seen.add(id);
+          pendingBlockIds.push(id);
+        }
+      }
+    }
+    if (!pendingBlockIds.length) break;
+
+    const res = await notion.getBlocks(pendingBlockIds);
+    const newBlocks = res?.recordMap?.block;
+    if (!newBlocks || !Object.keys(newBlocks).length) break;
+
+    Object.assign(recordMap.block, newBlocks);
+    normalizeNotionRecordMap(recordMap);
+  }
+
+  return recordMap;
+}
+
 export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
   // Get all posts again
   const posts = await getAllPosts({ locale: "", includeDraft: true });
@@ -51,8 +114,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     };
   }
 
-  const notion = new NotionAPI();
-  const blocks = await notion.getPage(post.id);
+  const blocks = await getNormalizedNotionPage(post.id);
 
   if (post.lang !== locale) {
     // return {
@@ -78,7 +140,7 @@ const BlogPost: React.FC<{ post: Post; blocks: any }> = ({ post, blocks }) => {
   if (!post) return null;
 
   const ogImage =
-    post.hero_image?.[0].url ||
+    post.hero_image?.[0]?.url ||
     `https://kevinbkdev.vercel.app/api/og?title=${encodeURI(
       post.title
     )}&description=${encodeURI(

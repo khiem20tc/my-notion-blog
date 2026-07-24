@@ -19,7 +19,7 @@ export type Post = {
   description?: string;
   linkRelatived?: string;
   series: string[];
-  hero_image: {
+  hero_image?: {
     url: string;
   }[];
 };
