@@ -67,9 +67,20 @@ function normalizeNotionRecordMap(recordMap: any) {
   return recordMap;
 }
 
+// Cloudflare in front of notion.so/api/v3 rejects got's default User-Agent
+// with a 403 "Attention Required" page, so send a regular one instead.
+const notionGotOptions = {
+  headers: {
+    "User-Agent":
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  },
+};
+
 async function getNormalizedNotionPage(pageId: string) {
   const notion = new NotionAPI();
-  const recordMap: any = await notion.getPage(pageId);
+  const recordMap: any = await notion.getPage(pageId, {
+    gotOptions: notionGotOptions,
+  });
   normalizeNotionRecordMap(recordMap);
 
   // getPage discovers missing blocks via block.value.content. With Notion's
@@ -90,7 +101,7 @@ async function getNormalizedNotionPage(pageId: string) {
     }
     if (!pendingBlockIds.length) break;
 
-    const res = await notion.getBlocks(pendingBlockIds);
+    const res = await notion.getBlocks(pendingBlockIds, notionGotOptions);
     const newBlocks = res?.recordMap?.block;
     if (!newBlocks || !Object.keys(newBlocks).length) break;
 
